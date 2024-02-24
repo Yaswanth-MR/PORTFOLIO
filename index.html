@@ -3,57 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yaswanth - Portfolio</title>
+    <link rel="shortcut icon" href="android-chrome-512x512.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Yaswanth</h1>
-            <p>Aspiring Developer</p>
-        </div>
-    </header>
+    <div class="hero">
+        <nav>
+        <h2 class="logo">Portfo<span>lio</span></h2>
+        <ul>
+        <li><a href="portfolio.html">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="MR YASWANTH.pdf" class="btn" download="">Resume</a>
+        </nav>
+    </div>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>
-                I am a passionate and dedicated student pursuing [Computer Science Engineering] at KPR Institute of Engineering Technology]. With keen interest in Web Development], committed to academic excellence continuous personal growth. believe that my curiosity determination will drive me make meaningful impact. Let's connect explore the possibilities together!
-            </p>
-        </div>
-    </section>
 
-    <section id="portfolio">
-        <div class="container">
-            <h2>Portfolio</h2>
-            <!-- Add your colorful project details here -->
-            <div class="Events">
-                <img src="img.jpg" alt="Project 1">
-                <h3>Event 1</h3>
-                <p>participate in IDEAVIVE conducted in KPRIET</p>
+    <div class="bio">
+        <img src="PHOTO (2).png" alt="Yaswanth">
+        <div class="About">
+            <br>
+            <br>
+            <h4>Hello, my name is</h4>
+            <h1>YASWANTH</h1>
+            <h3>Im a Web Developer.</h3>
+            <br>
+            <div class="newslatter">
+                <form>
+                <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+                <input type="submit" name="submit" value="Submit">
+                </form>
             </div>
-            <div class="Event">
-                <img src="img2.jpg" alt="Project 2">
-                <h3>Event 2</h3>
-                <p>participate in smart India Hackathon (SIH).</p>
+        </div>
+    </div>
+    <br>
+    <section class="about" id="about">
+        <main>
+            <div class="about-text">
+            <h2>About <span>Me</span>.</h2>
+            <h5>Developer & Designer</h5>
+            <p>I am a front-end web developer. I can provide clean code and pixel perfect design.Eager to contribute to the web development community, My passion for continuous learning propels them towards mastering the art of both front-end and back-end development. The journey of this beginner web developer is just beginning, marked by creativity, dedication, and an exciting road ahead.</p>
+            <br><br>
+            <button type="button">Let's Talk</button>
             </div>
-            <!-- Add more colorful projects as needed -->
-        </div>
+        </main>
     </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>
-                Let's connect! You can reach me at <a href="mailto:your.email@example.com">yaswanthraje4@gmail.com</a>.
-            </p>
+    <div class="project" id="project">
+        <div class="title">
+            <h1 class="subtitle">My Work</h1>
         </div>
-    </section>
-
+        <div class="box">
+        <div class="card">
+            <i class="fa-solid fa-hand-fist"></i>
+            <h5>Public safety website</h5>
+            <div class="pra">
+                <p>It serves as an online resource to provide essential information and resources related to emergency preparedness, crime prevention, and community safety.It is aimed for enhancing public well-being. </p>
+                <p style="text-align: center;"><a class="button" href="p1.jpg">See more</a></p>
+            </div>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-location-dot"></i>
+            <h5>Tourism website</h5>
+            <div class="pra">
+                <p>It serves as an online platform providing services related to travel destinations, accommodations, activities, and transportation. Users can plan their trips, access travel guides, and make bookings.</p>
+                <p style="text-align: center;"><a class="button" href="p2.jpg">See more</a></p>
+            </div>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-chart-line"></i>
+            <h5>IPL Dashboard</h5>
+            <div class="pra">
+                <p>An interactive IPL dashboard provides insights and statistics from 2008-2020, allowing users to dynamically explore and analyze. It offers an engaging visual interface for player performances and team statistics.</p>
+                <p style="text-align: center;"><a class="button" href="p3.jpg">See more</a></p>
+            </div>
+        </div>
+    </div>   
+    </div>
+    <div class="skill" id="skill">
+        <h1>My Skill</h1>
+        <li><h3>html</h3>
+            <span class="bar"><span class="html"></span></span>
+        </li>
+        <li><h3>css</h3>
+            <span class="bar"><span class="css"></span></span>
+        </li>
+        <li><h3>mysql</h3>
+            <span class="bar"><span class="mysql"></span></span>
+        </li>
+        <li><h3>javascript</h3>
+            <span class="bar"><span class="javascript"></span></span>
+        </li>
+     </div>
+    <br><br><br><br>
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <div class="container" id="contact">
+            <h2>Contact</h2>
+        <div class="socialicons">
+            <a href="https://www.linkedin.com/in/yaswanth-myilswamy-5aa415267/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:yaswanthraje4@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://github.com/Yaswanth-MR"><i class="fa-brands fa-github"></i></a>
+            
+        </div>
         </div>
     </footer>
+    <div class="footerbottom">
+        <p>&copy; yaswanth2024; Designed by <span class="designer">Yaswanth.</span><br>All rights reserved.</p>
+    </div>
 </body>
 </html>
